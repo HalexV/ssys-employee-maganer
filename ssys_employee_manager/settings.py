@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 #Disabling the browsable api feature
-#Defining a limit of pages
+#Defining the pagination and a limit of pages
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',

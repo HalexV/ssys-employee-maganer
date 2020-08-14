@@ -3,6 +3,7 @@ from django.urls import path, include
 from core.views import EmployeeViewSet
 from rest_framework import routers
 
+# Generating the URLs through a router and viewsets
 router = routers.DefaultRouter()
 router.register(r'employees', EmployeeViewSet)
 
