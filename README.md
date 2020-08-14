@@ -2,6 +2,7 @@
 A Django coding test app by SSYS.
 
 Running this app on Linux
+
 1- Create a virtualenv with python3 -m venv my-venv-name
 
 2- cd my-venv-name
